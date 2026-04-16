@@ -1,6 +1,6 @@
 {
   "date": "2026-04-16",
-  "generated_at": "2026-04-16T11:32:29.847750+08:00",
+  "generated_at": "2026-04-16T12:15:44.319490+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -8,6 +8,32 @@
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+        "url": "https://huggingface.co/papers/2604.13151",
+        "normalized_url": "https://huggingface.co/papers/2604.13151",
+        "summary": "Language Model (LM) agents are increasingly used in complex open-ended decision-making tasks, from AI coding to physical AI. A core requirement in these settings is the ability to both explore the problem space and exploit acquired knowledge effectively. However, systematically distinguishing and quantifying exploration and exploitation from observed actions without access to the agent's internal policy remains challenging. To address this, we design controllable environments inspired by practic",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-14T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.13151"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Do AI Coding Agents Log Like Humans? An Empirical Study",
+        "url": "https://huggingface.co/papers/2604.09409",
+        "normalized_url": "https://huggingface.co/papers/2604.09409",
+        "summary": "Software logging is essential for maintaining and debugging complex systems, yet it remains unclear how AI coding agents handle this non-functional requirement. While prior work characterizes human logging practices, the behaviors of AI coding agents and the efficacy of natural language instructions in governing them are unexplored. To address this gap, we conduct an empirical study of 4,550 agentic pull requests across 81 open-source repositories. We compare agent logging patterns against human",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-10T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.09409"
+        }
+      },
       {
         "category": "papers",
         "title": "From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space",
@@ -241,32 +267,6 @@
         "metadata": {
           "paper_id": "2604.10577"
         }
-      },
-      {
-        "category": "papers",
-        "title": "Parcae: Scaling Laws For Stable Looped Language Models",
-        "url": "https://huggingface.co/papers/2604.12946",
-        "normalized_url": "https://huggingface.co/papers/2604.12946",
-        "summary": "Traditional fixed-depth architectures scale quality by increasing training FLOPs, typically through increased parameterization, at the expense of a higher memory footprint, or data. A potential alternative is looped architectures, which instead increase FLOPs by sending activations through a block of layers in a loop. While promising, existing recipes for training looped architectures can be unstable, suffering from residual explosion and loss spikes. We address these challenges by recasting loo",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-14T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.12946"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Do Thought Streams Matter? Evaluating Reasoning in Gemini Vision-Language Models for Video Scene Understanding",
-        "url": "https://huggingface.co/papers/2604.11177",
-        "normalized_url": "https://huggingface.co/papers/2604.11177",
-        "summary": "We benchmark how internal reasoning traces, which we call thought streams, affect video scene understanding in vision-language models. Using four configurations of Google's Gemini 2.5 Flash and Flash Lite across scenes extracted from 100 hours of video, we ask three questions: does more thinking lead to better outputs, where do the gains stop, and what do these models actually think about? We introduce three evaluation metrics. Contentfulness measures how much of the thought stream is useful sce",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-13T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.11177"
-        }
       }
     ],
     "projects": [
@@ -484,12 +484,12 @@
     "news": [
       {
         "category": "news",
-        "title": "AI提效20%，我们程序员加班却越来越狠：老板量生产力的尺子，歪了？",
-        "url": "https://www.36kr.com/p/3768875459543561",
-        "normalized_url": "https://www.36kr.com/p/3768875459543561",
-        "summary": "AI提效被误用为裁员借口，开发者被指标（代码行、Token）异化，真正的生产力衡量却被忽视。",
+        "title": "偷改简历删光邮件：AI幻觉进化，你的大脑正在悄悄投降",
+        "url": "https://www.36kr.com/p/3768648370045444",
+        "normalized_url": "https://www.36kr.com/p/3768648370045444",
+        "summary": "AI不再胡说八道了？错。它的幻觉也在进化，从「劝人类吃石头」「披萨抹胶水」这类低级笑话，变成了能伪造邮件、篡改简历、删除文件的高阶幻觉陷阱：人类因此正经历一场无声的「认知投降」。",
         "source": "36Kr AI",
-        "published": "2026-04-16T03:09:35+00:00",
+        "published": "2026-04-16T04:00:11+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -497,12 +497,12 @@
       },
       {
         "category": "news",
-        "title": "北京车展终极前瞻：新势力“9系”豪车正面硬刚，Robotaxi成智驾新战场",
-        "url": "https://www.36kr.com/p/3768870104904454",
-        "normalized_url": "https://www.36kr.com/p/3768870104904454",
-        "summary": "自主品牌与合资品牌的又一场大战，来了。",
+        "title": "最先被AI取代的，是古装奇幻剧",
+        "url": "https://www.36kr.com/p/3768152984797952",
+        "normalized_url": "https://www.36kr.com/p/3768152984797952",
+        "summary": "打不过就加入。",
         "source": "36Kr AI",
-        "published": "2026-04-16T03:06:30+00:00",
+        "published": "2026-04-16T03:52:02+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -510,64 +510,12 @@
       },
       {
         "category": "news",
-        "title": "今天，50%的Token正在被浪费",
-        "url": "https://www.36kr.com/p/3768881965941504",
-        "normalized_url": "https://www.36kr.com/p/3768881965941504",
-        "summary": "技术发展早期，没有浪费，就没有进步。但未来谁能用更少的Token完成同样的任务，谁就会拥有更高的利润空间。也会拥有更加确定的未来。",
+        "title": "OpenClaw爆火，暴露12类致命隐患，MCP协议安全基准发布",
+        "url": "https://www.36kr.com/p/3768662327935747",
+        "normalized_url": "https://www.36kr.com/p/3768662327935747",
+        "summary": "过去的大模型安全研究主要聚焦于提示注入等语言层面的风险，而MSB表明，当AI调用工具并与真实系统交互时，攻击面也正在从文本空间扩展到工具生态。随着Agent逐渐成为AI应用的新范式，安全或许正成为这场技术跃迁必须跨过的一道门槛。",
         "source": "36Kr AI",
-        "published": "2026-04-16T03:02:45+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "快倒闭的硅谷神鞋，转行 AI 股价暴涨 7 倍，龙虾之父都懵了",
-        "url": "https://www.36kr.com/p/3768886645850883",
-        "normalized_url": "https://www.36kr.com/p/3768886645850883",
-        "summary": "卖完鞋，他们决定去抢 GPU 租赁生意",
-        "source": "36Kr AI",
-        "published": "2026-04-16T03:01:35+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI创业公司们，困在“眼前一黑”的账单里",
-        "url": "https://www.36kr.com/p/3768899174220550",
-        "normalized_url": "https://www.36kr.com/p/3768899174220550",
-        "summary": "账单到底有多难看？",
-        "source": "36Kr AI",
-        "published": "2026-04-16T03:00:41+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "30多岁还在\"找自己\"的人，为什么越来越多？",
-        "url": "https://www.36kr.com/p/3768908773606146",
-        "normalized_url": "https://www.36kr.com/p/3768908773606146",
-        "summary": "为什么这个时代不再生产“大人”",
-        "source": "36Kr AI",
-        "published": "2026-04-16T02:59:30+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "质能用Rust重构底座解信创安全痛点",
-        "url": "https://www.36kr.com/p/3752179785384710",
-        "normalized_url": "https://www.36kr.com/p/3752179785384710",
-        "summary": "质能科技以全栈Rust方案重构计算体系。",
-        "source": "36Kr AI",
-        "published": "2026-04-16T02:56:37+00:00",
+        "published": "2026-04-16T03:50:57+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -575,12 +523,12 @@
       },
       {
         "category": "news",
-        "title": "当酒店大堂挤满“金发碧眼”…",
-        "url": "https://www.36kr.com/p/3767488696791561",
-        "normalized_url": "https://www.36kr.com/p/3767488696791561",
-        "summary": "入境游红利当前，酒店业正从“国内内卷”转向“全球适配”",
+        "title": "华为回归，小米“撤退”",
+        "url": "https://www.36kr.com/p/3768913638588929",
+        "normalized_url": "https://www.36kr.com/p/3768913638588929",
+        "summary": "在AI算力疯狂抢占产能的2026年，手机已不再是半导体巨头的亲儿子，中国手机市场正从“规模战”转向残酷的“定价权测试”",
         "source": "36Kr AI",
-        "published": "2026-04-16T02:50:12+00:00",
+        "published": "2026-04-16T03:48:57+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -588,12 +536,25 @@
       },
       {
         "category": "news",
-        "title": "蓝色光标的“自我革命”：AI驱动收入37.25亿，Token消耗迈入万亿时代",
-        "url": "https://www.36kr.com/p/3768876765496065",
-        "normalized_url": "https://www.36kr.com/p/3768876765496065",
-        "summary": "透视蓝色光标三十年“自我革命”新征程。",
+        "title": "2026北京车展前瞻：自动驾驶从秀场突围，商业化迎决定性拐点",
+        "url": "https://www.36kr.com/p/3768944509186569",
+        "normalized_url": "https://www.36kr.com/p/3768944509186569",
+        "summary": "下周北京车展启幕，2026年正式迈入自动驾驶商业化元年。AI 大模型上车、L3 规模化落地、国产芯片突围、自动驾驶巴士出海、订阅制与保险生态成型，技术迭代与商业落地双向提速，智能化量产将迎来终极拐点。",
         "source": "36Kr AI",
-        "published": "2026-04-16T02:20:28+00:00",
+        "published": "2026-04-16T03:47:18+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "红果总榜合并，AI漫剧首超真人短剧：一场短剧市场“大海啸”？",
+        "url": "https://www.36kr.com/p/3768095100519175",
+        "normalized_url": "https://www.36kr.com/p/3768095100519175",
+        "summary": "AI漫剧将会进化出怎样的新形态？",
+        "source": "36Kr AI",
+        "published": "2026-04-16T03:46:37+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -601,12 +562,51 @@
       },
       {
         "category": "news",
-        "title": "a16z创始人深度对谈：AI没有泡沫，但中美真正的对决在机器人",
-        "url": "https://www.36kr.com/p/3768674338079492",
-        "normalized_url": "https://www.36kr.com/p/3768674338079492",
-        "summary": "AI的下半场，软件领先转瞬即逝，真正的硬仗是机器人制造。",
+        "title": "阔折叠：是华为的阳谋，还是折叠屏的自救？",
+        "url": "https://www.36kr.com/p/3768858604974599",
+        "normalized_url": "https://www.36kr.com/p/3768858604974599",
+        "summary": "八年折叠，引爆点要来了",
         "source": "36Kr AI",
-        "published": "2026-04-16T02:09:44+00:00",
+        "published": "2026-04-16T03:44:55+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“AI SSD第一股”上市，市值冲上1000亿",
+        "url": "https://www.36kr.com/p/3768925640503810",
+        "normalized_url": "https://www.36kr.com/p/3768925640503810",
+        "summary": "大普微企业级SSD累计出货量达4,900PB以上，其中搭载自研主控芯片的出货比例达75%以上。",
+        "source": "36Kr AI",
+        "published": "2026-04-16T03:42:04+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "高瓴坐镇，1400亿IPO敲钟了",
+        "url": "https://www.36kr.com/p/3768933931647744",
+        "normalized_url": "https://www.36kr.com/p/3768933931647744",
+        "summary": "始于天使轮。",
+        "source": "36Kr AI",
+        "published": "2026-04-16T03:39:56+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "AI提效20%，我们程序员加班却越来越狠：老板量生产力的尺子，歪了？",
+        "url": "https://www.36kr.com/p/3768875459543561",
+        "normalized_url": "https://www.36kr.com/p/3768875459543561",
+        "summary": "AI提效被误用为裁员借口，开发者被指标（代码行、Token）异化，真正的生产力衡量却被忽视。",
+        "source": "36Kr AI",
+        "published": "2026-04-16T03:09:35+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
