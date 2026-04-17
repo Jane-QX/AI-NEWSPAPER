@@ -2,11 +2,10 @@ name: AI Daily Digest
 
 on:
   schedule:
-    # Run at 08:00 Beijing time (00:00 UTC) every day
-    - cron: '0 0 * * *'
-    # Backup: retry at 09:00 Beijing time in case the first run missed
-    - cron: '0 1 * * *'
-  workflow_dispatch: # Allow manual trigger
+    # GitHub cron as last-resort fallback (unreliable for new repos).
+    # Primary trigger: cron-job.org calls the GitHub API at 08:05 Beijing time.
+    - cron: '0 2 * * *'  # UTC 02:00 = Beijing 10:00, far-fallback only
+  workflow_dispatch: # Allow manual trigger (also used by cron-job.org)
 
 jobs:
   generate:
