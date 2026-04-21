@@ -1,6 +1,6 @@
 {
   "date": "2026-04-21",
-  "generated_at": "2026-04-21T10:28:21.528161+08:00",
+  "generated_at": "2026-04-21T12:52:05.748755+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -10,262 +10,262 @@
     "papers": [
       {
         "category": "papers",
-        "title": "Stratagem: Learning Transferable Reasoning via Trajectory-Modulated Game Self-Play",
-        "url": "https://huggingface.co/papers/2604.17696",
-        "normalized_url": "https://huggingface.co/papers/2604.17696",
-        "summary": "Games offer a compelling paradigm for developing general reasoning capabilities in language models, as they naturally demand strategic planning, probabilistic inference, and adaptive decision-making. However, existing self-play approaches rely solely on terminal game outcomes, providing no mechanism to distinguish transferable reasoning patterns from game-specific heuristics. We present STRATAGEM, which addresses two fundamental barriers to reasoning transfer: domain specificity, where learned p",
+        "title": "HSG: Hyperbolic Scene Graph",
+        "url": "https://huggingface.co/papers/2604.17454",
+        "normalized_url": "https://huggingface.co/papers/2604.17454",
+        "summary": "Scene graph representations enable structured visual understanding by modeling objects and their relationships, and have been widely used for multiview and 3D scene reasoning. Existing methods such as MSG learn scene graph embeddings in Euclidean space using contrastive learning and attention based association. However, Euclidean geometry does not explicitly capture hierarchical entailment relationships between places and objects, limiting the structural consistency of learned representations. T",
         "source": "HuggingFace Papers",
-        "published": "2026-04-20T00:00:00.000Z",
+        "published": "2026-04-19T00:00:00.000Z",
         "importance_hint": 5,
         "metadata": {
-          "paper_id": "2604.17696"
+          "paper_id": "2604.17454"
         }
       },
       {
         "category": "papers",
-        "title": "The Geometric Canary: Predicting Steerability and Detecting Drift via Representational Stability",
-        "url": "https://huggingface.co/papers/2604.17698",
-        "normalized_url": "https://huggingface.co/papers/2604.17698",
-        "summary": "Reliable deployment of language models requires two capabilities that appear distinct but share a common geometric foundation: predicting whether a model will accept targeted behavioral control, and detecting when its internal structure degrades. We show that geometric stability, the consistency of a representation's pairwise distance structure, addresses both. Supervised Shesha variants that measure task-aligned geometric stability predict linear steerability with near-perfect accuracy (ρ= 0.89",
+        "title": "EasyVideoR1: Easier RL for Video Understanding",
+        "url": "https://huggingface.co/papers/2604.16893",
+        "normalized_url": "https://huggingface.co/papers/2604.16893",
+        "summary": "Reinforcement learning from verifiable rewards (RLVR) has demonstrated remarkable effectiveness in improving the reasoning capabilities of large language models. As models evolve into natively multimodal architectures, extending RLVR to video understanding becomes increasingly important yet remains largely unexplored, due to the diversity of video task types, the computational overhead of repeatedly decoding and preprocessing high-dimensional visual inputs, and the difficulty of reproducible eva",
         "source": "HuggingFace Papers",
-        "published": "2026-04-20T00:00:00.000Z",
+        "published": "2026-04-18T00:00:00.000Z",
         "importance_hint": 5,
         "metadata": {
-          "paper_id": "2604.17698"
+          "paper_id": "2604.16893"
         }
       },
       {
         "category": "papers",
-        "title": "Geometric coherence of single-cell CRISPR perturbations reveals regulatory architecture and predicts cellular stress",
-        "url": "https://huggingface.co/papers/2604.16642",
-        "normalized_url": "https://huggingface.co/papers/2604.16642",
-        "summary": "Genome engineering has achieved remarkable sequence-level precision, yet predicting the transcriptomic state that a cell will occupy after perturbation remains an open problem. Single-cell CRISPR screens measure how far cells move from their unperturbed state, but this effect magnitude ignores a fundamental question: do the cells move together? Two perturbations with identical magnitude can produce qualitatively different outcomes if one drives cells coherently along a shared trajectory while th",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-17T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2604.16642"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Mind DeepResearch Technical Report",
-        "url": "https://huggingface.co/papers/2604.14518",
-        "normalized_url": "https://huggingface.co/papers/2604.14518",
-        "summary": "We present Mind DeepResearch (MindDR), an efficient multi-agent deep research framework that achieves leading performance with only ~30B-parameter models through a meticulously designed data synthesis and multi-stage training pipeline. The core innovation of MindDR lies in a collaborative three-agent architecture (Planning Agent, DeepSearch Agent, and Report Agent) and a four-stage agent-specialized training pipeline comprising SFT cold-start, Search-RL, Report-RL and preference alignment. With ",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-17T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.14518"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Motif-Video 2B: Technical Report",
-        "url": "https://huggingface.co/papers/2604.16503",
-        "normalized_url": "https://huggingface.co/papers/2604.16503",
-        "summary": "Training strong video generation models usually requires massive datasets, large parameter counts, and substantial compute. In this work, we ask whether strong text-to-video quality is possible at a much smaller budget: fewer than 10M clips and less than 100,000 H200 GPU hours. Our core claim is that part of the answer lies in how model capacity is organized, not only in how much of it is used. In video generation, prompt alignment, temporal consistency, and fine-detail recovery can interfere wi",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-14T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.16503"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Universal statistical signatures of evolution in artificial intelligence architectures",
-        "url": "https://huggingface.co/papers/2604.10571",
-        "normalized_url": "https://huggingface.co/papers/2604.10571",
-        "summary": "We test whether artificial intelligence architectural evolution obeys the same statistical laws as biological evolution. Compiling 935 ablation experiments from 161 publications, we show that the distribution of fitness effects (DFE) of architectural modifications follows a heavy-tailed Student's t-distribution with proportions (68% deleterious, 19% neutral, 13% beneficial for major ablations, n=568) that place AI between compact viral genomes and simple eukaryotes. The DFE shape matches D. mela",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-12T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2604.10571"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "The Amazing Agent Race: Strong Tool Users, Weak Navigators",
-        "url": "https://huggingface.co/papers/2604.10261",
-        "normalized_url": "https://huggingface.co/papers/2604.10261",
-        "summary": "Existing tool-use benchmarks for LLM agents are overwhelmingly linear: our analysis of six benchmarks shows 55 to 100% of instances are simple chains of 2 to 5 steps. We introduce The Amazing Agent Race (AAR), a benchmark featuring directed acyclic graph (DAG) puzzles (or \"legs\") with fork-merge tool chains. We release 1,400 instances across two variants: sequential (800 legs) and compositional (600 DAG legs). Agents must navigate Wikipedia, execute multi-step tool chains, and aggregate results ",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-17T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.10261"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
-        "url": "https://huggingface.co/papers/2604.09860",
-        "normalized_url": "https://huggingface.co/papers/2604.09860",
-        "summary": "The pursuit of general-purpose robotics has yielded impressive foundation models, yet simulation-based benchmarking remains a bottleneck due to rapid performance saturation and a lack of true generalization testing. Existing benchmarks often exhibit significant domain overlap between training and evaluation, trivializing success rates and obscuring insights into robustness. We introduce RoboLab, a simulation benchmarking framework designed to address these challenges. Concretely, our framework i",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-14T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.09860"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Where does output diversity collapse in post-training?",
-        "url": "https://huggingface.co/papers/2604.16027",
-        "normalized_url": "https://huggingface.co/papers/2604.16027",
-        "summary": "Post-trained language models produce less varied outputs than their base counterparts. This output diversity collapse undermines inference-time scaling methods that rely on varied samples, and risks homogenizing model outputs on creative and value-laden tasks. Prior work attributes collapse to specific post-training methods, without separating the role of training data composition from the method, or the generation format from the model weights. We trace output diversity through three parallel p",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-17T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.16027"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Hierarchical Codec Diffusion for Video-to-Speech Generation",
-        "url": "https://huggingface.co/papers/2604.15923",
-        "normalized_url": "https://huggingface.co/papers/2604.15923",
-        "summary": "Video-to-Speech (VTS) generation aims to synthesize speech from a silent video without auditory signals. However, existing VTS methods disregard the hierarchical nature of speech, which spans coarse speaker-aware semantics to fine-grained prosodic details. This oversight hinders direct alignment between visual and speech features at specific hierarchical levels during property matching. In this paper, leveraging the hierarchical structure of Residual Vector Quantization (RVQ)-based codec, we pro",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-17T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2604.15923"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "DiPO: Disentangled Perplexity Policy Optimization for Fine-grained Exploration-Exploitation Trade-Off",
-        "url": "https://huggingface.co/papers/2604.13902",
-        "normalized_url": "https://huggingface.co/papers/2604.13902",
-        "summary": "Reinforcement Learning with Verifiable Rewards (RLVR) has catalyzed significant advances in the reasoning capabilities of Large Language Models (LLMs). However, effectively managing the exploration and exploitation trade-off remains a critical challenge. In this paper, we fully analyze the exploration and exploitation dilemma of extremely hard and easy samples during the training and propose a new fine-grained trade-off mechanism. Concretely, we introduce a perplexity space disentangling strateg",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-15T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.13902"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "QuantCode-Bench: A Benchmark for Evaluating the Ability of Large Language Models to Generate Executable Algorithmic Trading Strategies",
-        "url": "https://huggingface.co/papers/2604.15151",
-        "normalized_url": "https://huggingface.co/papers/2604.15151",
-        "summary": "Large language models have demonstrated strong performance on general-purpose programming tasks, yet their ability to generate executable algorithmic trading strategies remains underexplored. Unlike standard code benchmarks, trading-strategy generation requires simultaneous mastery of domain-specific financial logic, knowledge of a specialized API, and the ability to produce code that is not only syntactically correct but also leads to actual trades on historical data. In this work, we present Q",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-16T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.15151"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Elucidating the SNR-t Bias of Diffusion Probabilistic Models",
-        "url": "https://huggingface.co/papers/2604.16044",
-        "normalized_url": "https://huggingface.co/papers/2604.16044",
-        "summary": "Diffusion Probabilistic Models have demonstrated remarkable performance across a wide range of generative tasks. However, we have observed that these models often suffer from a Signal-to-Noise Ratio-timestep (SNR-t) bias. This bias refers to the misalignment between the SNR of the denoising sample and its corresponding timestep during the inference phase. Specifically, during training, the SNR of a sample is strictly coupled with its timestep. However, this correspondence is disrupted during inf",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-17T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.16044"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "Can Large Language Models Reinvent Foundational Algorithms?",
-        "url": "https://huggingface.co/papers/2604.05716",
-        "normalized_url": "https://huggingface.co/papers/2604.05716",
-        "summary": "LLMs have shown strong potential to advance scientific discovery. Whether they possess the capacity for foundational innovation, however, remains an open question. In this work, we focus on a prerequisite for foundational innovation: can LLMs reinvent foundational algorithms in computer science? Our Unlearn-and-Reinvent pipeline applies LLM unlearning to remove a specific foundational algorithm, such as Dijkstra's or Euclid's algorithm, from an LLM's pretrained knowledge, and then tests whether ",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-07T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.05716"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "(1D) Ordered Tokens Enable Efficient Test-Time Search",
-        "url": "https://huggingface.co/papers/2604.15453",
-        "normalized_url": "https://huggingface.co/papers/2604.15453",
-        "summary": "Tokenization is a key component of autoregressive (AR) generative models, converting raw data into more manageable units for modeling. Commonly, tokens describe local information, such as regions of pixels in images or word pieces in text, and AR generation predicts these tokens in a fixed order. A worthwhile question is whether token structures affect the ability to steer the generation through test-time search, where multiple candidate generations are explored and evaluated by a verifier. Usin",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-16T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.15453"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "EdgeDetect: Importance-Aware Gradient Compression with Homomorphic Aggregation for Federated Intrusion Detection",
-        "url": "https://huggingface.co/papers/2604.14663",
-        "normalized_url": "https://huggingface.co/papers/2604.14663",
-        "summary": "Federated learning (FL) enables collaborative intrusion detection without raw data exchange, but conventional FL incurs high communication overhead from full-precision gradient transmission and remains vulnerable to gradient inference attacks. This paper presents EdgeDetect, a communication-efficient and privacy-aware federated IDS for bandwidth-constrained 6G-IoT environments. EdgeDetect introduces gradient smartification, a median-based statistical binarization that compresses local updates to",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-16T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.14663"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "TwinTrack: Post-hoc Multi-Rater Calibration for Medical Image Segmentation",
-        "url": "https://huggingface.co/papers/2604.15950",
-        "normalized_url": "https://huggingface.co/papers/2604.15950",
-        "summary": "Pancreatic ductal adenocarcinoma (PDAC) segmentation on contrast-enhanced CT is inherently ambiguous: inter-rater disagreement among experts reflects genuine uncertainty rather than annotation noise. Standard deep learning approaches assume a single ground truth, producing probabilistic outputs that can be poorly calibrated and difficult to interpret under such ambiguity. We present TwinTrack, a framework that addresses this gap through post-hoc calibration of ensemble segmentation probabilities",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-17T00:00:00.000Z",
-        "importance_hint": 4,
-        "metadata": {
-          "paper_id": "2604.15950"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "TIPSv2: Advancing Vision-Language Pretraining with Enhanced Patch-Text Alignment",
-        "url": "https://huggingface.co/papers/2604.12012",
-        "normalized_url": "https://huggingface.co/papers/2604.12012",
-        "summary": "Recent progress in vision-language pretraining has enabled significant improvements to many downstream computer vision applications, such as classification, retrieval, segmentation and depth prediction. However, a fundamental capability that these models still struggle with is aligning dense patch representations with text embeddings of corresponding concepts. In this work, we investigate this critical issue and propose novel techniques to enhance this capability in foundational vision-language ",
+        "title": "OmniScript: Towards Audio-Visual Script Generation for Long-Form Cinematic Video",
+        "url": "https://huggingface.co/papers/2604.11102",
+        "normalized_url": "https://huggingface.co/papers/2604.11102",
+        "summary": "Current multimodal large language models (MLLMs) have demonstrated remarkable capabilities in short-form video understanding, yet translating long-form cinematic videos into detailed, temporally grounded scripts remains a significant challenge. This paper introduces the novel video-to-script (V2S) task, aiming to generate hierarchical, scene-by-scene scripts encompassing character actions, dialogues, expressions, and audio cues. To facilitate this, we construct a first-of-its-kind human-annotate",
         "source": "HuggingFace Papers",
         "published": "2026-04-13T00:00:00.000Z",
         "importance_hint": 5,
         "metadata": {
-          "paper_id": "2604.12012"
+          "paper_id": "2604.11102"
         }
       },
       {
         "category": "papers",
-        "title": "NTIRE 2026 Challenge on Video Saliency Prediction: Methods and Results",
-        "url": "https://huggingface.co/papers/2604.14816",
-        "normalized_url": "https://huggingface.co/papers/2604.14816",
-        "summary": "This paper presents an overview of the NTIRE 2026 Challenge on Video Saliency Prediction. The goal of the challenge participants was to develop automatic saliency map prediction methods for the provided video sequences. The novel dataset of 2,000 diverse videos with an open license was prepared for this challenge. The fixations and corresponding saliency maps were collected using crowdsourced mouse tracking and contain viewing data from over 5,000 assessors. Evaluation was performed on a subset ",
+        "title": "When Can LLMs Learn to Reason with Weak Supervision?",
+        "url": "https://huggingface.co/papers/2604.18574",
+        "normalized_url": "https://huggingface.co/papers/2604.18574",
+        "summary": "Large language models have achieved significant reasoning improvements through reinforcement learning with verifiable rewards (RLVR). Yet as model capabilities grow, constructing high-quality reward signals becomes increasingly difficult, making it essential to understand when RLVR can succeed under weaker forms of supervision. We conduct a systematic empirical study across diverse model families and reasoning domains under three weak supervision settings: scarce data, noisy rewards, and self-su",
         "source": "HuggingFace Papers",
-        "published": "2026-04-16T00:00:00.000Z",
+        "published": "2026-04-20T00:00:00.000Z",
         "importance_hint": 5,
         "metadata": {
-          "paper_id": "2604.14816"
+          "paper_id": "2604.18574"
         }
       },
       {
         "category": "papers",
-        "title": "Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips",
-        "url": "https://huggingface.co/papers/2502.07408",
-        "normalized_url": "https://huggingface.co/papers/2502.07408",
-        "summary": "Deep Neural Networks (DNNs) can be catastrophically disrupted by flipping only a handful of parameter bits. We introduce Deep Neural Lesion (DNL), a data-free and optimizationfree method that locates critical parameters, and an enhanced single-pass variant, 1P-DNL, that refines this selection with one forward and backward pass on random inputs. We show that this vulnerability spans multiple domains, including image classification, object detection, instance segmentation, and reasoning large lang",
+        "title": "EvoMaster: A Foundational Agent Framework for Building Evolving Autonomous Scientific Agents at Scale",
+        "url": "https://huggingface.co/papers/2604.17406",
+        "normalized_url": "https://huggingface.co/papers/2604.17406",
+        "summary": "The convergence of large language models and agents is catalyzing a new era of scientific discovery: Agentic Science. While the scientific method is inherently iterative, existing agent frameworks are predominantly static, narrowly scoped, and lack the capacity to learn from trial and error. To bridge this gap, we present EvoMaster, a foundational evolving agent framework engineered specifically for Agentic Science at Scale. Driven by the core principle of continuous self-evolution, EvoMaster em",
         "source": "HuggingFace Papers",
-        "published": "2026-04-16T00:00:00.000Z",
+        "published": "2026-04-19T00:00:00.000Z",
         "importance_hint": 5,
         "metadata": {
-          "paper_id": "2502.07408"
+          "paper_id": "2604.17406"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Training LLM Agents for Spontaneous, Reward-Free Self-Evolution via World Knowledge Exploration",
+        "url": "https://huggingface.co/papers/2604.18131",
+        "normalized_url": "https://huggingface.co/papers/2604.18131",
+        "summary": "Most agents today ``self-evolve'' by following rewards and rules defined by humans. However, this process remains fundamentally dependent on external supervision; without human guidance, the evolution stops. In this work, we train agents to possess an intrinsic meta-evolution capability to spontaneously learn about unseen environments prior to task execution. To instill this ability, we design an outcome-based reward mechanism that measures how much an agent's self-generated world knowledge impr",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.18131"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "WebCompass: Towards Multimodal Web Coding Evaluation for Code Language Models",
+        "url": "https://huggingface.co/papers/2604.18224",
+        "normalized_url": "https://huggingface.co/papers/2604.18224",
+        "summary": "Large language models are rapidly evolving into interactive coding agents capable of end-to-end web coding, yet existing benchmarks evaluate only narrow slices of this capability, typically text-conditioned generation with static-correctness metrics, leaving visual fidelity, interaction quality, and codebase-level reasoning largely unmeasured. We introduce WebCompass, a multimodal benchmark that provides unified lifecycle evaluation of web engineering capability. Recognizing that real-world web ",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.18224"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "ClawEnvKit: Automatic Environment Generation for Claw-Like Agents",
+        "url": "https://huggingface.co/papers/2604.18543",
+        "normalized_url": "https://huggingface.co/papers/2604.18543",
+        "summary": "Constructing environments for training and evaluating claw-like agents remains a manual, human-intensive process that does not scale. We argue that what is needed is not just a dataset, but an automated pipeline capable of generating diverse, verified environments on demand. To this end, we introduce ClawEnvKit, an autonomous generation pipeline that instantiates this formalism from natural language descriptions. The pipeline comprises three modules: (1) a parser that extracts structured generat",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.18543"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+        "url": "https://huggingface.co/papers/2604.18584",
+        "normalized_url": "https://huggingface.co/papers/2604.18584",
+        "summary": "Mathematical problem solving remains a challenging test of reasoning for large language and multimodal models, yet existing benchmarks are limited in size, language coverage, and task diversity. We introduce MathNet, a high-quality, large-scale, multimodal, and multilingual dataset of Olympiad-level math problems together with a benchmark for evaluating mathematical reasoning in generative models and mathematical retrieval in embedding-based systems. MathNet spans 47 countries, 17 languages, and",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.18584"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MedConclusion: A Benchmark for Biomedical Conclusion Generation from Structured Abstracts",
+        "url": "https://huggingface.co/papers/2604.06505",
+        "normalized_url": "https://huggingface.co/papers/2604.06505",
+        "summary": "Large language models (LLMs) are widely explored for reasoning-intensive research tasks, yet resources for testing whether they can infer scientific conclusions from structured biomedical evidence remain limited. We introduce MedConclusion, a large-scale dataset of 5.7M PubMed structured abstracts for biomedical conclusion generation. Each instance pairs the non-conclusion sections of an abstract with the original author-written conclusion, providing naturally occurring supervision for evidence-",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-07T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.06505"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MNAFT: modality neuron-aware fine-tuning of multimodal large language models for image translation",
+        "url": "https://huggingface.co/papers/2604.16943",
+        "normalized_url": "https://huggingface.co/papers/2604.16943",
+        "summary": "Multimodal large language models (MLLMs) have shown impressive capabilities, yet they often struggle to effectively capture the fine-grained textual information within images crucial for accurate image translation. This often leads to a modality gap between visual text inputs and textual inputs/outputs for image translation. Existing methods, primarily relying on instruction fine-tuning, risk parameter redundancy of pre-trained knowledge, hindering generalization performance. To address this, we",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-18T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.16943"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence",
+        "url": "https://huggingface.co/papers/2604.18292",
+        "normalized_url": "https://huggingface.co/papers/2604.18292",
+        "summary": "Large language models are increasingly expected to serve as general-purpose agents that interact with external, stateful tool environments. The Model Context Protocol (MCP) and broader agent skills offer a unified interface for connecting agents with scalable real-world services, but training robust agents remains limited by the lack of realistic environments and principled mechanisms for life-long learning. In this paper, we present Agent-World, a self-evolving training arena for advancing gene",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.18292"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Modeling Multiple Support Strategies within a Single Turn for Emotional Support Conversations",
+        "url": "https://huggingface.co/papers/2604.17972",
+        "normalized_url": "https://huggingface.co/papers/2604.17972",
+        "summary": "Emotional Support Conversation (ESC) aims to assist individuals experiencing distress by generating empathetic and supportive dialogue. While prior work typically assumes that each supporter turn corresponds to a single strategy, real-world supportive communication often involves multiple strategies within a single utterance. In this paper, we revisit the ESC task by formulating it as multi-strategy utterance generation, where each utterance may contain one or more strategy-response pairs. We pr",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.17972"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "MultiWorld: Scalable Multi-Agent Multi-View Video World Models",
+        "url": "https://huggingface.co/papers/2604.18564",
+        "normalized_url": "https://huggingface.co/papers/2604.18564",
+        "summary": "Video world models have achieved remarkable success in simulating environmental dynamics in response to actions by users or agents. They are modeled as action-conditioned video generation models that take historical frames and current actions as input to predict future frames. Yet, most existing approaches are limited to single-agent scenarios and fail to capture the complex interactions inherent in real-world multi-agent systems. We present MultiWorld, a unified framework for multi-agent multi-",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.18564"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Precise Debugging Benchmark: Is Your Model Debugging or Regenerating?",
+        "url": "https://huggingface.co/papers/2604.17338",
+        "normalized_url": "https://huggingface.co/papers/2604.17338",
+        "summary": "Unlike code completion, debugging requires localizing faults and applying targeted edits. We observe that frontier LLMs often regenerate correct but over-edited solutions during debugging. To evaluate how far LLMs are from precise debugging, we introduce the Precise Debugging Benchmark (PDB) framework, which automatically converts any coding dataset into a debugging benchmark with precision-aware evaluation. PDB generates buggy programs by synthesizing verified atomic bugs and composing them int",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-19T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.17338"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation",
+        "url": "https://huggingface.co/papers/2604.18486",
+        "normalized_url": "https://huggingface.co/papers/2604.18486",
+        "summary": "Chain-of-Thought (CoT) reasoning has become a powerful driver of trajectory prediction in VLA-based autonomous driving, yet its autoregressive nature imposes a latency cost that is prohibitive for real-time deployment. Latent CoT methods attempt to close this gap by compressing reasoning into continuous hidden states, but consistently fall short of their explicit counterparts. We suggest that this is due to purely linguistic latent representations compressing a symbolic abstraction of the world,",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.18486"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Multiplication in Multimodal LLMs: Computation with Text, Image, and Audio Inputs",
+        "url": "https://huggingface.co/papers/2604.18203",
+        "normalized_url": "https://huggingface.co/papers/2604.18203",
+        "summary": "Multimodal LLMs can accurately perceive numerical content across modalities yet fail to perform exact multi-digit multiplication when the identical underlying arithmetic problem is presented as numerals, number words, images, or in audio form. Because existing benchmarks often lack systematically paired instances across modalities, it remains difficult to compare genuine arithmetic limits within and across model families. We therefore introduce a controlled multimodal multiplication benchmark th",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-20T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.18203"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Revisiting a Pain in the Neck: A Semantic Reasoning Benchmark for Language Models",
+        "url": "https://huggingface.co/papers/2604.16593",
+        "normalized_url": "https://huggingface.co/papers/2604.16593",
+        "summary": "We present SemanticQA, an evaluation suite designed to assess language models (LMs) in semantic phrase processing tasks. The benchmark consolidates existing multiword expression (MwE) resources and reorganizes them into a unified testbed. It covers both general lexical phenomena, such as lexical collocations, and three fine-grained categories: idiomatic expressions, noun compounds, and verbal constructions. Through SemanticQA, we assess LMs of diverse architectures and scales in extraction, clas",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-17T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.16593"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Crowded in B-Space: Calibrating Shared Directions for LoRA Merging",
+        "url": "https://huggingface.co/papers/2604.16826",
+        "normalized_url": "https://huggingface.co/papers/2604.16826",
+        "summary": "Merging separately trained LoRA adapters is a practical alternative to joint multi-task training, but it often hurts performance. Existing methods usually treat the LoRA update ΔW = BA as a single object and do not distinguish the two LoRA matrices. We show that the main source of LoRA merge interference comes from the output-side matrix B. Across tasks, B repeatedly uses a small set of shared directions, while A remains much more task-specific. As a result, the merged adapter overemphasizes the",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-18T00:00:00.000Z",
+        "importance_hint": 4,
+        "metadata": {
+          "paper_id": "2604.16826"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Meta-learning In-Context Enables Training-Free Cross Subject Brain Decoding",
+        "url": "https://huggingface.co/papers/2604.08537",
+        "normalized_url": "https://huggingface.co/papers/2604.08537",
+        "summary": "Visual decoding from brain signals is a key challenge at the intersection of computer vision and neuroscience, requiring methods that bridge neural representations and computational models of vision. A field-wide goal is to achieve generalizable, cross-subject models. A major obstacle towards this goal is the substantial variability in neural representations across individuals, which has so far required training bespoke models or fine-tuning separately for each subject. To address this challenge",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-09T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.08537"
         }
       }
     ],
@@ -484,12 +484,12 @@
     "news": [
       {
         "category": "news",
-        "title": "2个月狂揽2200多万用户，抖音这次杀疯了",
-        "url": "https://www.36kr.com/p/3775883077518088",
-        "normalized_url": "https://www.36kr.com/p/3775883077518088",
-        "summary": "抖音推团购APP抖省省，挑战美团本地生活市场。",
+        "title": "美团VS淘宝闪购，在医疗赛道正面硬刚，底牌全亮了",
+        "url": "https://www.36kr.com/p/3775955998454536",
+        "normalized_url": "https://www.36kr.com/p/3775955998454536",
+        "summary": "美团VS淘宝闪购，在医疗赛道正面硬刚，底牌全亮了",
         "source": "36Kr AI",
-        "published": "2026-04-21T02:22:43+00:00",
+        "published": "2026-04-21T04:48:50+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -497,12 +497,12 @@
       },
       {
         "category": "news",
-        "title": "月之暗面发布K2.6，杨植麟真的需要一个郭达雅",
-        "url": "https://www.36kr.com/p/3775887908450819",
-        "normalized_url": "https://www.36kr.com/p/3775887908450819",
-        "summary": "Kimi K2.6，专注AI编程和agent",
+        "title": "微脉冲刺「AI+全病程管理第一股」：深耕医疗垂类模型及AI专病智能体应用",
+        "url": "https://www.36kr.com/p/3775981834191623",
+        "normalized_url": "https://www.36kr.com/p/3775981834191623",
+        "summary": "中国最大的服务患者的AI+全病程管理服务提供商。",
         "source": "36Kr AI",
-        "published": "2026-04-21T02:22:06+00:00",
+        "published": "2026-04-21T04:45:29+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -510,77 +510,12 @@
       },
       {
         "category": "news",
-        "title": "AI 导师全球化分野：让「一对一辅导」不再奢侈",
-        "url": "https://www.36kr.com/p/3775173044601353",
-        "normalized_url": "https://www.36kr.com/p/3775173044601353",
-        "summary": "一个「买得起」的 AI 导师，能解决什么问题？",
+        "title": "奇世智能CheeChips完成天使轮融资，专注AI+母婴智能硬件生态｜最前线",
+        "url": "https://www.36kr.com/p/3774891479712514",
+        "normalized_url": "https://www.36kr.com/p/3774891479712514",
+        "summary": "奇世智能推出了家用AI模拟全彩胎儿记录仪，这款硬件能够记录全孕期胎儿成长。",
         "source": "36Kr AI",
-        "published": "2026-04-21T02:21:34+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "爱奇艺向AI投诚，利好何润东",
-        "url": "https://www.36kr.com/p/3775153282118145",
-        "normalized_url": "https://www.36kr.com/p/3775153282118145",
-        "summary": "AI艺人库，自掘坟墓",
-        "source": "36Kr AI",
-        "published": "2026-04-21T02:07:07+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "杭州市市场监督管理局关于印发支持一人公司OPC创新创业发展的若干举措的通知",
-        "url": "https://www.36kr.com/p/3775928909251080",
-        "normalized_url": "https://www.36kr.com/p/3775928909251080",
-        "summary": "4月15日，杭州市市场监督管理局印发《支持一人公司OPC创新创业发展的若干举措》（杭市监〔2026〕43号），聚焦人工智能创新发展，提出五个方面十二项支持一人公司OPC创业发展举措。",
-        "source": "36Kr AI",
-        "published": "2026-04-21T02:05:55+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "55%被裁后未再就业，44%想离开：游戏行业正在进入“后震期”？",
-        "url": "https://www.36kr.com/p/3775831528522243",
-        "normalized_url": "https://www.36kr.com/p/3775831528522243",
-        "summary": "2026年游戏行业裁员持续，AI重塑岗位，行业吸引力下降。",
-        "source": "36Kr AI",
-        "published": "2026-04-21T01:55:02+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "巨头下场，AI漫剧狂飙",
-        "url": "https://www.36kr.com/p/3775080463122944",
-        "normalized_url": "https://www.36kr.com/p/3775080463122944",
-        "summary": "技术正拓宽内容边界。",
-        "source": "36Kr AI",
-        "published": "2026-04-21T01:48:36+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "智能锂电园林公司完成数千万元融资，出货量破万台｜硬氪首发",
-        "url": "https://www.36kr.com/p/3774707915440897",
-        "normalized_url": "https://www.36kr.com/p/3774707915440897",
-        "summary": "行业进入锂电替代的关键窗口期。",
-        "source": "36Kr AI",
-        "published": "2026-04-21T01:31:55+00:00",
+        "published": "2026-04-21T04:45:02+00:00",
         "importance_hint": 4,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -588,12 +523,12 @@
       },
       {
         "category": "news",
-        "title": "专访Eight Sleep CTO：被马斯克们买爆的AI床垫，进中国先砍一刀订阅费",
-        "url": "https://www.36kr.com/p/3775892441301511",
-        "normalized_url": "https://www.36kr.com/p/3775892441301511",
-        "summary": "“护城河在于闭环。”",
+        "title": "江苏小县，跑出第68个IPO",
+        "url": "https://www.36kr.com/p/3775996597519107",
+        "normalized_url": "https://www.36kr.com/p/3775996597519107",
+        "summary": "“江阴板块”，数量+1。",
         "source": "36Kr AI",
-        "published": "2026-04-21T01:17:02+00:00",
+        "published": "2026-04-21T04:44:08+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
@@ -601,12 +536,77 @@
       },
       {
         "category": "news",
-        "title": "龚宇的AI梦，为何成了爱奇艺的公关噩梦？",
-        "url": "https://www.36kr.com/p/3775832713413378",
-        "normalized_url": "https://www.36kr.com/p/3775832713413378",
-        "summary": "各位老板，不要说公关没用了，没用的是草台班子公关。",
+        "title": "OpenAI最强对手，被亚马逊追投2249亿",
+        "url": "https://www.36kr.com/p/3775906785166084",
+        "normalized_url": "https://www.36kr.com/p/3775906785166084",
+        "summary": "Claude年化收入已超过300亿美元。",
         "source": "36Kr AI",
-        "published": "2026-04-21T01:16:08+00:00",
+        "published": "2026-04-21T04:38:30+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "杨植麟交卷，Kimi K2.6抢先开源，指挥300个Agent上岗，实测手搓3D格斗游戏",
+        "url": "https://www.36kr.com/p/3775906823586568",
+        "normalized_url": "https://www.36kr.com/p/3775906823586568",
+        "summary": "Kimi开做“龙虾版微信”，已在内测。",
+        "source": "36Kr AI",
+        "published": "2026-04-21T04:38:00+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "“守成者”库克卸任CEO：除了离开，他再没有什么能留给苹果了",
+        "url": "https://www.36kr.com/p/3776050641125889",
+        "normalized_url": "https://www.36kr.com/p/3776050641125889",
+        "summary": "库克官宣卸任，苹果需要一位能带他们走出“舒适区”的掌舵者",
+        "source": "36Kr AI",
+        "published": "2026-04-21T04:32:18+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "爱奇艺热搜背后，揭秘“买脸”这门生意",
+        "url": "https://www.36kr.com/p/3775910929384201",
+        "normalized_url": "https://www.36kr.com/p/3775910929384201",
+        "summary": "AI短剧“买脸”，已经野蛮跑了很久。",
+        "source": "36Kr AI",
+        "published": "2026-04-21T04:25:30+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "助力科技成果高效转化，服务湖南产业转型升级 ——奇安投资完成三期创投基金募集",
+        "url": "https://www.36kr.com/p/3776062666899972",
+        "normalized_url": "https://www.36kr.com/p/3776062666899972",
+        "summary": "奇安三期创投基金扩募至5亿元，深耕AI与安全投资。",
+        "source": "36Kr AI",
+        "published": "2026-04-21T04:23:37+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "骨折卧床CEO效率提升100倍，内部版逐字稿来了",
+        "url": "https://www.36kr.com/p/3775207873610241",
+        "normalized_url": "https://www.36kr.com/p/3775207873610241",
+        "summary": "一个人+AI，就是一支队伍！",
+        "source": "36Kr AI",
+        "published": "2026-04-21T03:59:45+00:00",
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
