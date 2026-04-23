@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23T11:54:33.840285+08:00",
+  "generated_at": "2026-04-23T12:54:17.701041+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
@@ -8,6 +8,32 @@
   },
   "items": {
     "papers": [
+      {
+        "category": "papers",
+        "title": "Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges",
+        "url": "https://huggingface.co/papers/2604.13602",
+        "normalized_url": "https://huggingface.co/papers/2604.13602",
+        "summary": "Reinforcement Learning from Human Feedback (RLHF) and related alignment paradigms have become central to steering large language models (LLMs) and multimodal large language models (MLLMs) toward human-preferred behaviors. However, these approaches introduce a systemic vulnerability: reward hacking, where models exploit imperfections in learned reward signals to maximize proxy objectives without fulfilling true task intent. As models scale and optimization intensifies, such exploitation manifests",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-15T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.13602"
+        }
+      },
+      {
+        "category": "papers",
+        "title": "Exploring Spatial Intelligence from a Generative Perspective",
+        "url": "https://huggingface.co/papers/2604.20570",
+        "normalized_url": "https://huggingface.co/papers/2604.20570",
+        "summary": "Spatial intelligence is essential for multimodal large language models, yet current benchmarks largely assess it only from an understanding perspective. We ask whether modern generative or unified multimodal models also possess generative spatial intelligence (GSI), the ability to respect and manipulate 3D spatial constraints during image generation, and whether such capability can be measured or improved. We introduce GSI-Bench, the first benchmark designed to quantify GSI through spatially gro",
+        "source": "HuggingFace Papers",
+        "published": "2026-04-22T00:00:00.000Z",
+        "importance_hint": 5,
+        "metadata": {
+          "paper_id": "2604.20570"
+        }
+      },
       {
         "category": "papers",
         "title": "Convergent Evolution: How Different Language Models Learn Similar Number Representations",
@@ -241,32 +267,6 @@
         "metadata": {
           "paper_id": "2604.18240"
         }
-      },
-      {
-        "category": "papers",
-        "title": "Understanding and Enforcing Weight Disentanglement in Task Arithmetic",
-        "url": "https://huggingface.co/papers/2604.17078",
-        "normalized_url": "https://huggingface.co/papers/2604.17078",
-        "summary": "Task arithmetic provides an efficient, training-free way to edit pre-trained models, yet lacks a fundamental theoretical explanation for its success. The existing concept of ``weight disentanglement\" describes the ideal outcome of non-interfering task composition but does not reveal its underlying cause. Crucially, what intrinsic properties of the pre-trained model (θ_0) or the task vectors (τ_t) enable this disentanglement remains underexplored. In this paper, we introduce Task-Feature Speciali",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-18T17:34:56.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.17078"
-        }
-      },
-      {
-        "category": "papers",
-        "title": "ShadowPEFT: Shadow Network for Parameter-Efficient Fine-Tuning",
-        "url": "https://huggingface.co/papers/2604.19254",
-        "normalized_url": "https://huggingface.co/papers/2604.19254",
-        "summary": "Parameter-efficient fine-tuning (PEFT) reduces the training cost of full-parameter fine-tuning for large language models (LLMs) by training only a small set of task-specific parameters while freezing the pretrained backbone. However, existing approaches, such as Low-Rank Adaptation (LoRA), achieve adaptation by inserting independent low-rank perturbations directly to individual weights, resulting in a local parameterization of adaptation. We propose ShadowPEFT, a centralized PEFT framework that ",
-        "source": "HuggingFace Papers",
-        "published": "2026-04-21T00:00:00.000Z",
-        "importance_hint": 5,
-        "metadata": {
-          "paper_id": "2604.19254"
-        }
       }
     ],
     "projects": [
@@ -484,6 +484,84 @@
     "news": [
       {
         "category": "news",
+        "title": "历史性时刻！Anthropic估值暴涨破万亿美元，首次超越OpenAI",
+        "url": "https://www.36kr.com/p/3778903190639617",
+        "normalized_url": "https://www.36kr.com/p/3778903190639617",
+        "summary": "Anthropic 在私募二级市场被追到接近 1 万亿美元，热度反超 OpenAI，背后是稀缺股权、收入增长、Claude Code 的产品势能，以及资本对 AI 平台入口的重新下注。",
+        "source": "36Kr AI",
+        "published": "2026-04-23T04:20:10+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "4.55亿美金重注一颗「大脑」，红杉高瓴罕见联手",
+        "url": "https://www.36kr.com/p/3778900472780037",
+        "normalized_url": "https://www.36kr.com/p/3778900472780037",
+        "summary": "一轮狂揽4.55亿美金！高瓴红杉罕见联手，美团重磅加注，中国具身智能单轮融资首破纪录。这家仅成立一年的国产黑马，凭「能干活的大脑」强势杀入大脑俱乐部第一梯队。",
+        "source": "36Kr AI",
+        "published": "2026-04-23T04:17:52+00:00",
+        "importance_hint": 4,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "单价近28亿元，台积电高管直喊阿斯麦新设备太贵暂不购买",
+        "url": "https://www.36kr.com/p/3778883774223624",
+        "normalized_url": "https://www.36kr.com/p/3778883774223624",
+        "summary": "台积电副共同营运长张晓强称，阿斯麦下一代High-NA EUV设备“非常非常贵”。",
+        "source": "36Kr AI",
+        "published": "2026-04-23T04:13:22+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "华为入局，AI百镜大战重洗牌",
+        "url": "https://www.36kr.com/p/3778885850395396",
+        "normalized_url": "https://www.36kr.com/p/3778885850395396",
+        "summary": "行业进入新的生死竞赛期。",
+        "source": "36Kr AI",
+        "published": "2026-04-23T04:13:05+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "警惕Token福利陷阱",
+        "url": "https://www.36kr.com/p/3778877715813383",
+        "normalized_url": "https://www.36kr.com/p/3778877715813383",
+        "summary": "欢迎超级个体，拒绝表演性生产力。",
+        "source": "36Kr AI",
+        "published": "2026-04-23T04:01:45+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
+        "title": "10本书，让你成为AI时代少数看懂牌局的人",
+        "url": "https://www.36kr.com/p/3778884999107845",
+        "normalized_url": "https://www.36kr.com/p/3778884999107845",
+        "summary": "玩家还在追风口，庄家都在成长。",
+        "source": "36Kr AI",
+        "published": "2026-04-23T04:00:51+00:00",
+        "importance_hint": 3,
+        "metadata": {
+          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+        }
+      },
+      {
+        "category": "news",
         "title": "这一次，OpenAI干掉了90%人类设计师",
         "url": "https://www.36kr.com/p/3778857176723974",
         "normalized_url": "https://www.36kr.com/p/3778857176723974",
@@ -536,80 +614,15 @@
       },
       {
         "category": "news",
-        "title": "荣耀夺冠，优必选、宇树们爆冷，具身智能没有护城河？",
-        "url": "https://www.36kr.com/p/3778796399858953",
-        "normalized_url": "https://www.36kr.com/p/3778796399858953",
-        "summary": "荣耀机器人马拉松夺冠，冲击行业格局。",
-        "source": "36Kr AI",
-        "published": "2026-04-23T03:33:58+00:00",
+        "title": "India’s app market is booming — but global platforms are capturing most of the gains",
+        "url": "https://techcrunch.com/2026/04/22/indias-app-market-is-booming-but-global-platforms-are-capturing-most-of-the-gains/",
+        "normalized_url": "https://techcrunch.com/2026/04/22/indias-app-market-is-booming-but-global-platforms-are-capturing-most-of-the-gains",
+        "summary": "Non-gaming apps, led by streaming and AI, are driving growth, even as India's spending per user lags global peers.",
+        "source": "TechCrunch AI",
+        "published": "2026-04-23T04:38:45+00:00",
         "importance_hint": 3,
         "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "今天，中际旭创10000亿：苏州赢麻了",
-        "url": "https://www.36kr.com/p/3778804943607049",
-        "normalized_url": "https://www.36kr.com/p/3778804943607049",
-        "summary": "苏州迎来大牛市。",
-        "source": "36Kr AI",
-        "published": "2026-04-23T03:33:35+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "36氪官方AI专属社群，正式开放招募！",
-        "url": "https://www.36kr.com/p/3777870287737860",
-        "normalized_url": "https://www.36kr.com/p/3777870287737860",
-        "summary": "36氪AI测评正式开放三大垂直社群：AI启航群、AI实战群、OPC超级个体群。面向不同阶段、不同目标的用户，帮助你更高效地理解AI、使用AI，并推动真实成长与结果落地。",
-        "source": "36Kr AI",
-        "published": "2026-04-23T03:31:49+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "仅3个月44家公司裁员，超2700人下岗：残酷的困局出现了",
-        "url": "https://www.36kr.com/p/3778123631138054",
-        "normalized_url": "https://www.36kr.com/p/3778123631138054",
-        "summary": "全球游戏市场共同面对的挑战。",
-        "source": "36Kr AI",
-        "published": "2026-04-23T03:21:31+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "智能苹果公司诞生？特努斯明确表态押注AI，需化解三重焦虑",
-        "url": "https://www.36kr.com/p/3778100703965956",
-        "normalized_url": "https://www.36kr.com/p/3778100703965956",
-        "summary": "苹果都有哪些AI焦虑？",
-        "source": "36Kr AI",
-        "published": "2026-04-23T03:20:19+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "业绩承压的58同城，被曝存在“幽灵订单”",
-        "url": "https://www.36kr.com/p/3778097145901830",
-        "normalized_url": "https://www.36kr.com/p/3778097145901830",
-        "summary": "58同城现“幽灵订单”，维修乱象引投诉",
-        "source": "36Kr AI",
-        "published": "2026-04-23T03:20:02+00:00",
-        "importance_hint": 3,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
+          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
       },
       {
@@ -725,19 +738,6 @@
         "source": "TechCrunch AI",
         "published": "2026-04-22T14:22:10+00:00",
         "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
-        }
-      },
-      {
-        "category": "news",
-        "title": "AI is spitting out more potential drugs than ever. This startup wants to figure out which ones matter.",
-        "url": "https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/",
-        "normalized_url": "https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter",
-        "summary": "10x Science has raised a $4.8 million seed round to help pharmaceutical researchers understand complex molecules.",
-        "source": "TechCrunch AI",
-        "published": "2026-04-22T13:00:00+00:00",
-        "importance_hint": 3,
         "metadata": {
           "feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/"
         }
