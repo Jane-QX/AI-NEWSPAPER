@@ -218,12 +218,12 @@ def format_raw_content(data):
             )
     return "\n".join(sections)
 
-def summarize_with_gemini(api_key, model, prompt):
+def summarize_with_gemini(api_key, model, full_prompt):
     """Call Google Gemini API."""
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     headers = {"Content-Type": "application/json"}
     payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
+        "contents": [{"parts": [{"text": full_prompt}]}],
     }
     resp = requests.post(url, headers=headers, json=payload, timeout=120)
     resp.raise_for_status()
