@@ -1,10 +1,10 @@
 {
   "date": "2026-04-26",
-  "generated_at": "2026-04-26T12:02:31.205393+08:00",
+  "generated_at": "2026-04-26T13:16:18.566204+08:00",
   "counts": {
     "papers": 20,
     "projects": 15,
-    "news": 26
+    "news": 25
   },
   "items": {
     "papers": [
@@ -610,19 +610,6 @@
         "importance_hint": 3,
         "metadata": {
           "feed_url": "https://rsshub.rssforever.com/36kr/search/articles/ai"
-        }
-      },
-      {
-        "category": "news",
-        "title": "Python 潮流周刊#148：用大模型寻找 Python C 扩展漏洞",
-        "url": "https://sspai.com/post/109082",
-        "normalized_url": "https://sspai.com/post/109082",
-        "summary": "本周刊由 Python猫 出品，精心筛选国内外的 400+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 温馨提示： 在微信关注 Python猫 ，发送数字“ 9 ”，即可领取 9 折优惠码，订阅专栏可享 15 元优惠。 去专栏阅读全文： 全文链接 分享了 12 篇文章，12 个开源项目 以下是本期标题摘要： 🦄文章&教程 ① PyPI 完成第二次安全审计 ② PyTexas 2026 回顾 ③ 纵深防御：Python 供应链安全实践指南 ④ PEP 833：冻结 HTML 简单仓库 API ⑤ Django：修复 Python 3.14 增量垃圾回收导致的内存“泄漏” ⑥ 数组 API 普及：整个生态系统的性能飞跃 ⑦ 跟着 Raymond Hettinger 学习 Python 面向对象编程 ⑧ 打造更好的 conda CLI：愿景 ⑨ 2026 年开发 Python 库指南 ⑩ AI 时代重塑 Python Notebook ⑪ 用大模型寻找 Python C 扩展漏洞",
-        "source": "SSPAI AI",
-        "published": "2026-04-25T11:53:53+00:00",
-        "importance_hint": 4,
-        "metadata": {
-          "feed_url": "https://rsshub.rssforever.com/sspai/tag/AI"
         }
       },
       {
