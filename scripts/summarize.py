@@ -254,7 +254,7 @@ def summarize(data, date_str):
     full_prompt = f"{SYSTEM_PROMPT}\n\n{user_prompt}"
 
     if provider == "gemini":
-        text = summarize_with_gemini(api_key, model, prompt)
+        text = summarize_with_gemini(api_key, model, full_prompt)
     else:
         base_url = os.environ.get("API_BASE_URL", "https://api.deepseek.com")
         url = f"{base_url}/chat/completions"
